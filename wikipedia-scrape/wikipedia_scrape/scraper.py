@@ -18,6 +18,5 @@ def get_citations_needed_count(url):
 
 def get_citations_needed_report(integer):
     #takes in an integer and returns a string
-    print(f'There are {integer} needed citations for this wiki page')
+    return 'There are {integer} needed citations for this wiki page'
 
-get_citations_needed_count(url)
